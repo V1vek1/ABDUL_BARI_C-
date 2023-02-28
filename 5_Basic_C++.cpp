@@ -27,28 +27,41 @@
 
 //*******************Increments And Decreament**********************
 
-#include <iostream>
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+// // int i=5,j;
+// // j=i++;
+// // cout<<j<<" "<<i<<endl;
+
+// // int k=5,l;
+// // l=++k;
+// // cout<<l<<" "<<k<<endl;
+
+// int a=5,b;
+//     b=2*(++a) + 2*(a++);  // yeh yha to work kar rha h per sabhi compilier me work nahi karega because it is not a right way to write this code
+// cout<<b<<" "<<a<<endl;;
+
+// // int c=5,d;
+// // d=2*c++ + 2*c++;
+// // cout<<d<<" "<<c<<endl;
+
+// return 0;
+// }
+
+
+
+
+//************************ENUM**************************
+//Enum is return 0,1 
+#include<iostream>
 using namespace std;
+
 int main()
 {
-// int i=5,j;
-// j=i++;
-// cout<<j<<" "<<i<<endl;
-
-// int k=5,l;
-// l=++k;
-// cout<<l<<" "<<k<<endl;
-
-int a=5,b;
-    b=2*(++a) + 2*(a++);  // yeh yha to work kar rha h per sabhi compilier me work nahi karega because it is not a right way to write this code
-cout<<b<<" "<<a<<endl;;
-
-// int c=5,d;
-// d=2*c++ + 2*c++;
-// cout<<d<<" "<<c<<endl;
-
-return 0;
+    enum day {mon,tue,wed,thu,fri,sat,sun}; //enum khud ka variable bnane me help karta h
+    day d;
+    d=mon;
+    cout<<d<<endl;
 }
-
-
-
